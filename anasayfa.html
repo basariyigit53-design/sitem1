@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YiCommerce | Online Mağaza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🔹 ÜST MENÜ -->
+  <header>
+    <h1>Merhaba Dünya</h1>
+    <div class="logo">YiCommerce</div>
+    <nav>
+      <a href="#">Ana Sayfa</a>
+      <a href="#">Ürünler</a>
+      <a href="#">Hakkımızda</a>
+      <a href="#">İletişim</a>
+    </nav>
+    <div class="cart-icon" onclick="toggleCart()">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- 🔹 ANA BANNER -->
+  <section class="hero">
+    <h1>Modern Ürünlerle Tanış</h1>
+    <p>En yeni teknolojiler, en uygun fiyatlarla!</p>
+    <button>Şimdi Keşfet</button>
+  </section>
+
+  <!-- 🔹 ÜRÜNLER -->
+  <section class="products">
+    <h2>Popüler Ürünler</h2>
+    <div class="product-list" id="product-list">
+      <!-- Ürünler JavaScript ile eklenecek -->
+    </div>
+  </section>
+
+  <!-- 🔹 SEPET -->
+  <div class="cart" id="cart">
+    <h2>Sepetim</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total">
+      Toplam: <span id="cart-total">0₺</span>
+    </div>
+    <button class="checkout-btn" onclick="checkout()">Satın Al</button>
+  </div>
+
+  <!-- 🔹 ALT BİLGİ -->
+  <footer>
+    <p>© 2025 YiCommerce | Tüm Hakları Saklıdır.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

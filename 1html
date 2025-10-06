@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Yiğit Başarı | Hakkımda</title>
+</head>
+<body>
+  <h1>Yiğit Başarı</h1>
+  <p>Merhaba! Ben web geliştirme öğreniyorum 🚀</p>
+  <hr>
+  <h2>İlgi Alanlarım</h2>
+  <ul>
+    <li>Yazılım</li>
+    <li>Tasarım</li>
+    <li>Teknoloji</li>
+  </ul>
+
+  <h2>Bana Ulaş</h2>
+  <p>
+    <a href="mailto:yigit@example.com">E-posta Gönder</a>
+  </p>
+</body>
+</html>
+
